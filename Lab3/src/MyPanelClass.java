@@ -37,6 +37,9 @@
 	                        g.drawRect(x1 +2, y1 +2, width, height);
 	                        g.drawRect(x1 -2, y1 -2 ,width , height);
 	                        
+	                        g.setColor(Color.WHITE);
+	                        g.drawLine(x1, y1, x2, y2);
+	                        
 	            }
 	}
 
