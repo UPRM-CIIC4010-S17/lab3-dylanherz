@@ -27,7 +27,7 @@
 	                        g.setColor(Color.BLUE);
 	                        g.fillRect(x1, y1, width +1, height +1);
 	                        
-	                        //Draw a border
+	                        /*Draw a border
 	                        g.setColor(Color.YELLOW);
 	                        g.drawRect(x1, y1, width, height);
 	                        
@@ -39,6 +39,12 @@
 	                        
 	                        g.setColor(Color.WHITE);
 	                        g.drawLine(x1, y1, x2, y2);
+	                        
+	                        g.setColor(Color.RED);
+	                        g.drawLine(x1, y2, x2, y1);*/
+	                        
+	                        g.setColor(Color.LIGHT_GRAY);
+	                        g.fillOval((getWidth()-55)/2, (getHeight()-55)/2, 55, 55);
 	                        
 	            }
 	}
